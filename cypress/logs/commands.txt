@@ -1,0 +1,22 @@
+1737104726785 - (fetch)GET https://applyonlinedev.hdfcbank.com/adobe/forms/af/data/L2NvbnRlbnQvZm9ybXMvYWYvaGRmY19oYWYvY2FyZHMvc2VtaS9mb3Jtcy9zZW1p&ifsc=1737104726761
+1737104729850 - get.field-aem-mobilenum > .field-label
+1737104729850 - click
+1737104729859 - get #textinput-9788d1ff27
+1737104729860 - click
+1737104730431 - get #textinput-9788d1ff27
+1737104730432 - type9818138473
+1737104730498 - (xhr)GET https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=3817033753EE89720A490D4D%40AdobeOrg&d_nsid=0&ts=1737104730472
+1737104733347 - (fetch)POST https://adobedc.demdex.net/ee/v1/interact?configId=1d232579-38ba-4fc9-9cc8-f9fdd41159db&requestId=ffb4af03-15d6-4580-9eac-c21236b92b8a
+1737104733351 - get.field-aem-cardno > .field-label
+1737104733351 - click
+1737104733360 - get #textinput-7929b3478a
+1737104733360 - click
+1737104733785 - (fetch)POST https://smetrics.hdfcbank.com/ee/ind1/v1/interact?configId=1d232579-38ba-4fc9-9cc8-f9fdd41159db&requestId=55ba20fb-9727-407a-8ede-c46cfbf57e9d
+1737104733802 - get #textinput-7929b3478a
+1737104733802 - type5300
+1737104734025 - get #button-2024db0da1
+1737104734026 - click
+1737104734050 - (fetch)POST https://applyonlinedev.hdfcbank.com/content/hdfc_ccforms/api/validatecardotpgen.json
+1737104734520 - (fetch)POST https://applyonlinedev.hdfcbank.com/content/hdfc_commonforms/api/journeydropoff.json
+1737104734532 - (fetch)POST https://smetrics.hdfcbank.com/ee/ind1/v1/interact?configId=1d232579-38ba-4fc9-9cc8-f9fdd41159db&requestId=6c24e2d4-3562-40be-98fd-dd19f7d6c537
+1737104735526 - (fetch)POST https://smetrics.hdfcbank.com/ee/ind1/v1/interact?configId=1d232579-38ba-4fc9-9cc8-f9fdd41159db&requestId=82c088c4-bd6b-4674-959b-c8294f87d37b
